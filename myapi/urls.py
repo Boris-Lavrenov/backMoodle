@@ -6,6 +6,6 @@ from rest_framework.routers import DefaultRouter
 from myapi.views import UserViewSet
 
 router = DefaultRouter()
-router.register('user', UserViewSet)
+router.register('user2', UserViewSet)
 
 urlpatterns = router.urls
